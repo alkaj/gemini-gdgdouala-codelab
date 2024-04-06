@@ -62,6 +62,8 @@ dependencies {
     implementation(libs.androidx.material3)
 
     implementation(libs.secrets.gradle.plugin)
+    implementation(libs.generative.ai)
+
 
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
