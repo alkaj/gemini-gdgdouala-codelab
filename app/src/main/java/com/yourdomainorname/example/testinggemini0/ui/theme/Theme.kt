@@ -41,7 +41,7 @@ private val LightColorScheme = lightColorScheme(
 fun TestingGemini0Theme(
     darkTheme: Boolean = isSystemInDarkTheme(),
     // Dynamic color is available on Android 12+
-    dynamicColor: Boolean = true,
+    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 )
 {
